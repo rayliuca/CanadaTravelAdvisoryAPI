@@ -1,3 +1,7 @@
+[![AutoRun](https://github.com/rayliuca/CanadaTravelAdvisoryAPI/actions/workflows/node.js.yml/badge.svg)](https://github.com/rayliuca/CanadaTravelAdvisoryAPI/actions/workflows/node.js.yml) ![Last Commit](https://img.shields.io/github/last-commit/rayliuca/CanadaTravelAdvisoryAPI)
+
+
+
 # CanadaTravelAdvisoryAPI
 
 Get request https://rayliu.ca/CanadaTravelAdvisoryAPI/CanadaTravelAdvisory.json or http://rayliuca.github.io/CanadaTravelAdvisoryAPI/CanadaTravelAdvisory.json
