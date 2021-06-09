@@ -25,5 +25,7 @@ jobs:
       uses: actions/setup-node@v2
       with:
         node-version: ${{ matrix.node-version }}
+    - name: Install dependencies
+      run: npm install
     - run: node main.js
     - run: git add . && git commit -m 'auto updated via action' && git push --all
