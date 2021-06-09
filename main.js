@@ -19,10 +19,10 @@ let getJSON_vm = vm.run(`module.exports = function getJSON(callback) {
 		data = this.responseText
 		// console.log(data)
 		// console.log("data.status= "+data.status)
-		
+
 		extractJSON = data.slice(data.indexOf("var indexUpdatedDataJSON = "), data.indexOf("// Extract the right content from the JSON data based on the language"))
 		// extractJSON = extractJSON.slice("var indexUpdatedDataJSON = ".length-1, extractJSON.length-25)
-		eval(extractJSON) 
+		eval(extractJSON)
 		// console.log(extractJSON)
 		console.log(indexUpdatedDataJSON)
 		callback(indexUpdatedDataJSON)
@@ -38,10 +38,8 @@ let getJSON_vm = vm.run(`module.exports = function getJSON(callback) {
 function save_obj(obj) {
 	const fs = require('fs');
 	var json_str = JSON.stringify(obj);
-	fs.writeFile("CanadaTravelAdvisory.json", json_str, 'utf8', function (err) {console.log("welp")});
+	fs.writeFile("CanadaTravelAdvisory.json", json_str, 'utf8', function (err) {if (err) console.log("welp")});
 }
 
 
 getJSON_vm(save_obj)
-
-

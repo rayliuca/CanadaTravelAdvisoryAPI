@@ -1,0 +1,27 @@
+{
+  "name": "CanadaTravelAdvisoryAPI",
+  "version": "0.1.0",
+  "description": "A Node.js app to scrape the Canada Travel Advisory data",
+  "main": "main.js",
+  "scripts": {
+    "deploy": "node index.js"
+  },
+  "dependencies": {
+    "vm2": "^3.9.3",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "engines": {
+    "node": "^14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rayliuca/CanadaTravelAdvisoryWrapper"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "author": "Ray Liu",
+  "license": "MIT"
+}
