@@ -9,7 +9,7 @@ to get the advisories in the JSON format (can't guarantee accuracy or safety).
 
 Please use the official sources on [this page](https://open.canada.ca/data/en/dataset/bef2ebb3-ca9a-485f-aaff-5dc36eb89426) or this link: https://data.international.gc.ca/travel-voyage/index-updated.json
 
-This script was originally developed for my [Global Affairs Canada Travel Advisories Viz](https://public.tableau.com/app/profile/ray.liu/viz/GlobalAffairsCanadaTravelAdvisoriesMap/Dashboard1) on Tableau Public when the official API was never updated (in the early COVID days). Now, for obvious reasons, it is finally linked to the newest source. I made this repo just to try out GitHub Actions (GitHub automaticlly runs the script to scrape the data 4 times a day).
+This script was originally developed for my [Global Affairs Canada Travel Advisories Viz](https://public.tableau.com/app/profile/ray.liu/viz/GlobalAffairsCanadaTravelAdvisoriesMap/Dashboard1) on Tableau Public when the official API was never updated (in the early COVID days). Now, for obvious reasons, it is finally linked to the newest source. I made this repo just to try out GitHub Actions (I set an action to automaticlly scrape the data 4 times a day using the script).
 
 ## Method
 
