@@ -18,9 +18,7 @@
     "url": "https://github.com/rayliuca/CanadaTravelAdvisoryWrapper"
   },
   "keywords": [
-    "node",
-    "heroku",
-    "express"
+    "node"
   ],
   "author": "Ray Liu",
   "license": "MIT"
