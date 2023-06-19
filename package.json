@@ -7,7 +7,7 @@
     "deploy": "node index.js"
   },
   "dependencies": {
-    "vm2": "^3.9.6",
+    "vm2": "^3.9.18",
     "xmlhttprequest": "^1.8.0"
   },
   "engines": {
